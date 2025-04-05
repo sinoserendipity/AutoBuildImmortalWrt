@@ -39,6 +39,8 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES luci-app-vnstat2"
 PACKAGES="$PACKAGES luci-i18n-vnstat2-zh-cn"
+PACKAGES="$PACKAGES luci-app-upnp"
+PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
