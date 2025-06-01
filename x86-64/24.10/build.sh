@@ -20,6 +20,9 @@ cat /home/build/immortalwrt/files/etc/config/pppoe-settings
 # 输出调试信息
 echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始编译..."
 
+git clone https://github.com/asvow/luci-app-tailscale /home/build/immortalwrt/package/luci-app-tailscale
+git clone  https://github.com/gdy666/luci-app-lucky.git /home/build/immortalwrt/package/lucky
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git /home/build/immortalwrt/package/luci-app-adguardhome
 
 
 # 定义所需安装的包列表 下列插件你都可以自行删减
@@ -46,6 +49,9 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES luci-app-lucky"
+PACKAGES="$PACKAGES luci-app-tailscale"
+PACKAGES="$PACKAGES luci-app-adguardhome"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
