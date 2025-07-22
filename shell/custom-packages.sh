@@ -3,6 +3,7 @@
 # ============= 若启用 则打开注释 ================
 # istore商店
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-store"
+# lucky 应用
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-lucky"
 # 首页和网络向导
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
