@@ -62,7 +62,7 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
-PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # upnp
 PACKAGES="$PACKAGES luci-app-upnp"
 PACKAGES="$PACKAGES luci-i18n-upnp-zh-cn"
