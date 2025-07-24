@@ -72,6 +72,9 @@ PACKAGES="$PACKAGES luci-i18n-vnstat2-zh-cn"
 # cloudflared
 PACKAGES="$PACKAGES luci-app-cloudflared"
 PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
+# rclone
+PACKAGES="$PACKAGES luci-app-rclone"
+PACKAGES="$PACKAGES luci-i18n-rclone-zh-cn"
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
